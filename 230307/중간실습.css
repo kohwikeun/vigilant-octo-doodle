@@ -1,0 +1,114 @@
+.tab-menu> input{
+    display: none;
+}
+
+/* 인접한 형제요소 선택자 +  */
+/* tab-menu 클래스를 가지고 있는 태그의
+자식중 input 태그 바로 아래 붙은 태그 */
+.tab-menu > input + label { 
+    display: inline-block;
+    padding: 70px;
+    background-color: white;
+    color: gray;
+    font-size:20px;
+
+    cursor: pointer;
+}
+
+/* checked 속성이 있는 input 태그 */
+/* tab-menu클래스를 가지고 있는 태그 자식 input 태그가 checked 속성이 있으면
+인접 형제 태그인 label에 스타일을 적용 시키겠다. */
+.tab-menu > input:checked + label{
+    background : #127533;
+    color: bisque;
+
+}
+.img{
+    width: 340px;
+    height: 486px;
+}
+
+.box{
+    display:none;
+}
+
+
+/* input 태그중 class가 tab01이고 checked 속성이 있고 형제요소중 
+밑에 있는 태그중에 item1클래스를 가지고 있는 태그 */
+input[class="tab01"]:checked ~ .item01{
+    width: 1000px;
+    display: block;
+    color: rgb(113, 6, 128);
+
+}
+
+input[class="tab02"]:checked~.item02{
+    display: block;
+    width: 1000px;
+    color: rgba(48, 139, 44, 0.63);
+}
+
+input[class="tab03"]:checked ~ .item03{
+    display: block;
+    color: rgb(143, 209, 19);
+}
+input[class="tab04"]:checked ~ .item04{
+    display: block;
+    color: rgb(121, 10, 10);
+}
+input[class="tab05"]:checked ~ .item05{
+    display: block;
+    color: rgba(24, 8, 8, 0.76);
+}
+
+.tab-menu > input:checked + label {
+    background:#127533;
+    color:aliceblue;
+}
+
+
+
+.text-box:before{
+    position:absolute;
+    top: 6px;
+    left: 172px;
+    content: "";
+    background-image : url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MjlfMTY4%2FMDAxNjI3NTQyMDgwMjM4.aZcEEaE77hEIV-_TDUFiYqUxUYe7NQfy5WqscKrwZ6Ag.pT6B71xSp9dYgiJabHDXpnbtwkrZMdp-HD-k9ZUsoYAg.JPEG.gnblueeye%2F%25BB%25E7%25C1%25F81.jpg&type=a340);
+    background-size: 17px;
+    width: 17px;
+    height: 17px;
+    background-repeat: no repeat;
+    display : block;
+}
+
+.text-box{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    top: 6px;
+    left: 1100px;
+    width: 120px;
+    height:40px;
+    
+}
+
+.text-box input{
+    padding-right: 24px;
+}
+
+
+.icon{
+    height:30px;
+}
+
+.bar{
+    border-right: 1px solid gray;
+}
+.good{
+    display: inline-block;
+    width:50px;
+    height: 20px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 10px;
+}

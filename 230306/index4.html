@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style4.css">
+    <style>
+        p+a{
+            color: red;
+        }
+
+        p~a{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+<p></p>
+<a href="">나는레드</a>
+<div></div>
+
+    <div class="tab-menu">
+        <!-- checked input에 체크 속성을 줄때 -->
+        <!-- tab01 id를 가지고있는 input laber for 속성에 tab01 (id는 1개만 줘야함) -->
+        <!-- for 속성으로 연결된 label을 클릭하면 id로 for에 연결된 
+            체크박스가 클릭됨 -->
+        <input class="tab01" type="radio" id="tab01" name="tabmenue" checked>
+        <label for="tab01">탭 1</label>
+
+        <input class="tab02" type="radio" id="tab02" name="tabmenue">
+        <label for="tab02">탭 2</label>
+
+        <input class="tab03" type="radio" id="tab03" name="tabmenue">
+        <label for="tab03">탭 3</label>
+
+        <div class="box item1" >1번박스</div>
+        <div class="box item2" >2번박스</div>
+        <div class="box item3" >3번박스</div>
+
+        <div class="text-box">
+            <input type="text">
+        </div>
+    </div>
+    
+</body>
+</html>

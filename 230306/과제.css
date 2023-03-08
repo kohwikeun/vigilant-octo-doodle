@@ -1,0 +1,245 @@
+
+.main{
+    width: 1100px;
+    height: max-content;
+    overflow: hidden;
+    margin: auto ;
+    position: relative;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+h2{
+    margin-left: 15px;
+}
+
+.tab-menu > input{
+    display: none;
+}
+
+label{
+    width: 214px;
+    height: 41px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+
+.tab-menu > input + label{
+    display: inline-block;
+    background-color: white;
+    color: #222;
+    font-size: 1.0667em;
+    text-align: center;
+    height: 41px;
+    /* 마우스를 올렸을때 보여줄 커서 설정 */
+    cursor: pointer;
+    margin: 0px;
+
+}
+
+input:checked + label{
+    background-color: gray;
+    color: black
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    margin: 0;
+    display: none;
+    border: 0px solid;
+    position: relative;
+
+}
+
+input[class="tab01"]:checked ~ .item1{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: max-content;
+    align-content: center;
+    flex-wrap: wrap;
+    
+   
+}
+
+
+.icon{
+    display: block;
+    width: 23px;
+    height: 23px;
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/txt/12_46x46.png);
+    background-size: 23px 23px;
+    position: absolute;
+    left: 10px;
+    top: 355px;
+
+}
+
+
+p{
+    font-size: 19px;
+    margin-right: 0px;
+}
+
+ol li{
+    text-decoration: none;
+    float: left;
+}
+
+div .text-box{
+    width: 1100px;
+    height: 150px;
+    position: relative;
+    
+}
+
+.text-box input{
+    width: 230px;
+    height: 36px;
+    margin-top: 29px;
+    margin-left: 840px;
+}
+
+.text-box::before{
+    position: absolute;
+    right: 20px;
+    top: 44px;
+    content: "";
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/btn/btn-search-input.png);
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    display: block;
+
+}
+.boxoffice{
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
+    margin: 0 auto;
+
+}
+
+
+.office1{
+    position: relative;
+    width: 230px;
+    height: 480px;
+    margin: 0 0 0 0px;
+    padding: 0;
+    background-color: #fff;
+
+
+}
+
+div .office1:first-child{
+    margin: 0;
+}
+
+div .sub-title{
+    font-size: 15px;
+    
+}
+
+div .icon-main{
+    
+    display: block;
+    margin: 0 auto;
+    margin-top: 4px;
+
+    
+}
+
+.icon2 button{
+    
+    width: 72px;
+    height: 36px;    
+    font-size: .8667em;
+    border-color: #ebebeb;
+    border-radius: 5px;
+    color: #351f67;
+    text-decoration: none;
+    background-color: #f2f4f8
+    
+    
+    
+}
+
+.icon3 button{
+    width: 72px;
+    height: 36px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    background-color: #503396;
+    font-size: .8667em;
+    cursor: pointer;
+}
+
+.icon4 button{
+    width: 72px;
+    height: 36px;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    background-color: #503396;
+    font-size: .8667em;
+    cursor: pointer;
+   
+
+}
+
+
+input[class="tab02"]:checked ~ .item2{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: max-content;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+input[class="tab03"]:checked ~ .item3{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: max-content;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+input[class="tab04"]:checked ~ .item4{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: max-content;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+input[class="tab05"]:checked ~ .item5{
+    width: 1100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: max-content;
+    align-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+

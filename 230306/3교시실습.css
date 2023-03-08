@@ -1,0 +1,92 @@
+@media only screen and (max-width : 1500px){
+
+    div{
+        width: 1500px;
+        height: 1500px;
+        border: 20px solid green;
+        
+    }
+
+}
+
+@media only screen and (max-width : 1200px){
+
+    div{
+        width: 1500px;
+        height: 1500px;
+        border: 20px solid red;
+        
+    }
+
+}
+
+@media only screen and (max-width : 600px){
+
+    div{
+        width: 1500px;
+        height: 1500px;
+        border: 20px solid blue;
+        
+    }
+}
+
+
+@media only screen and (min-width : 600px){
+    /* 너비가 500px 이상일 때 표시  */
+    div{
+       width: 1500px;
+       height: 1500px;
+       border: 20px solid red;
+      
+    }
+}
+
+
+div{
+    width: 1500px;
+    height: 1500px;
+    
+  
+}
+
+div img{
+    width: 1500px;
+    height: 1500px;
+    overflow: hidden;
+
+}
+   
+ @keyframes ani{
+    0%{
+            /* 전체 동작중 0~50% 까지의 내용 */
+        transform: rotate(0);
+    }
+    50%{
+            /* 전체 동작중에 50%일 때 */
+        transform: rotate(360deg);
+    }
+    100%{
+            /* 전체 동작하면서 50~100%까지 */
+        transform: rotate(0);
+    }
+}
+
+   
+   
+ div img{
+    animation: ani 3s linear;
+    transition: transform 3s linear, border 1s ease-in-out, border-radious 1s ease-in-out;
+        /* 스타일 값이 변하면서 ㅎ효과를 줄 수 있다
+            transition에 대해서 변화하는 시간 변화의 방법을 설정 가능 
+            transform 3s transform속성이 3초간 변화 하고 (태그가 돌아가는것)
+            border 1s border 값이 1초 동안 변화 ( 테두리가 생김)
+            border-radius 1s 값이 1초 동안 변화 (모서리가 둥글게 깎임)*/
+     }
+
+div img{
+        /* hover 마우스가 해당 태그에 올려졌을 때 */
+        transform: rotate(720deg);
+        border: 10px solid red;
+        border-radius: 50%;
+    
+    }

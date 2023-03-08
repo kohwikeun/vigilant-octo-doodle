@@ -1,0 +1,52 @@
+div{
+    box-sizing: border-box;
+    width: 100%;
+        
+}
+
+.a{
+    width: 800px;
+    height: 200px;
+    border-bottom: 1px solid;
+    display: flex; flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 1%;
+
+}
+
+
+img{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    display: inline-flex;
+}
+
+h3{
+    width: 450px;
+    height: 30px;
+    margin: 5px;
+    display: inline-flex;
+}
+
+h4{
+    width: 150px;
+    height: 30px;
+    margin: 7px;
+    text-align: right;
+    color: silver;
+}
+
+p{
+    width: 550px;
+    height: 100px;
+    margin-left: 190px;
+    margin-top: -110px;
+}
+
+h5{
+    width: 800px;
+    height: 30px;
+    text-align: right;
+    margin-top: -10px;
+}
