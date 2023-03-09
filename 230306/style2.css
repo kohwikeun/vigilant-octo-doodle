@@ -12,7 +12,7 @@
     }
 }
 
-@media only screen and (min-width : 500px){
+@media only screen and (min-width : 100px){
      /* 너비가 500px 이상일 때 표시  */
      .box{
         width: 500px;

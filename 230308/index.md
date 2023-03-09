@@ -47,13 +47,13 @@ $ git branch -d"main"
 
 git branch 
 
-$ git checkout ' master' 
+$ git checkout 'master' 
 
 
 
 $ git add . 
 
-$ git comit -m " inderx.md 수정"
+$ git comit -m " index.md 수정"
 
 
 # 브런치를 만들었으면 push를 해서 원격저장소에 브런치를 생성해주자. 
